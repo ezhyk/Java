@@ -1,5 +1,7 @@
 class HelloWorldApp {
+        public String hi;
         public static void main (String[] args){
-                System.out.println("Hello World!");
+                hi = "Hello World!"
+                System.out.println(hi);
         }
 }
